@@ -1,12 +1,15 @@
 import { useEffect, useState, useMemo } from "react";
+import axios from "axios";
+import isEmpty from "lodash/isEmpty";
+import find from "lodash/find";
+
 import Modal from "../components/modal/Modal";
 import DetailView from "../components/detailView/DetailView";
 import PageContainer from "../layouts/PageContainer";
 import PERSONS from "../data/person.json";
 import DataGrid from "../components/dataGrid/DataGrid";
 import { useSearchParams, useLocation } from "react-router-dom";
-import isEmpty from "lodash/isEmpty";
-import find from "lodash/find";
+import "../api/index";
 
 const Home = () => {
   const [listData, setListData] = useState<any>([]);
@@ -19,18 +22,21 @@ const Home = () => {
   const id = new URLSearchParams(search).get("id");
 
   useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setListData(PERSONS.persons);
-      if (id) {
-        const selected = find(PERSONS.persons, function (o) {
-          return o.id === parseInt(id);
-        });
-        setSelectedRow(selected);
-      }
-      setLoading(false);
-    }, 2000);
+    getList();
   }, []);
+
+  const getList = async () => {
+    setLoading(true);
+    const { data } = await axios.get("employees");
+    setListData(data.persons);
+    if (id) {
+      const selected = find(PERSONS.persons, function (o) {
+        return o.id === parseInt(id);
+      });
+      setSelectedRow(selected);
+    }
+    setLoading(false);
+  };
 
   const handleRowClick = (data: any) => {
     const { id } = data;
@@ -80,11 +86,12 @@ const Home = () => {
           datas={listData}
           onRowClick={handleRowClick}
           loading={loading}
+          className="table-center"
         />
       </PageContainer>
 
       <Modal
-        show={Object.keys(selectedRow).length !== 0}
+        show={!isEmpty(selectedRow)}
         title={selectedRow.personName}
         onClose={() => {
           setSelectedRow({});

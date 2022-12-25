@@ -4,10 +4,15 @@
 
 .detail-content-row {
   display: flex;
+  margin: 20px;
 }
 
 .detail-content-item-label {
   flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex ;
+  padding-right: 10px;
 }
 
 .detail-content-item-value {
@@ -18,12 +23,14 @@
   display: flex;
   gap: 4px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .detail-list {
   max-height: 400px;
   overflow: hidden;
   overflow-y: auto;
+  padding: 20px;
 }
 
 .table-container {

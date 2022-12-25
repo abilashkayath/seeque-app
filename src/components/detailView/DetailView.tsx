@@ -17,7 +17,8 @@ const DetailRow = ({ name, value }: DetailRowProps) => {
   return (
     <div className="detail-content-row">
       <div className="detail-content-item-label">
-        <Title text={`${name} :`} />
+        <Title level={4} text={name} />
+        <Title text={":"} />
       </div>
       <div className="detail-content-item-value">
         <Text text={value} />
@@ -36,11 +37,12 @@ const DetailView = ({
     <div className="detail">
       <div className="detail-content">
         <DetailRow name="Location" value={location} />
-        <DetailRow name="jobTitle" value={jobTitle} />
-        <DetailRow name="jobDescription" value={jobDescription} />
+        <DetailRow name="Title" value={jobTitle} />
+        <DetailRow name="Description" value={jobDescription} />
         <div className="detail-content-row">
           <div className="detail-content-item-label">
-            <Title text="Skills :" />
+            <Title level={4} text="Skills" />
+            <Title text=":" />
           </div>
           <div className="detail-content-item-value detail-content-skills">
             {specialities &&
@@ -57,6 +59,7 @@ const DetailView = ({
             onListClick(data);
           }}
           loading={false}
+          className="table-full"
         />
       </div>
     </div>

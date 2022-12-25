@@ -6,17 +6,17 @@ export type DataGridProps = {
   datas: any;
   onRowClick: any;
   loading: boolean;
+  className?: string;
 };
 
-const DataGrid = ({ datas, loading, onRowClick }: DataGridProps) => {
-  console.log();
+const DataGrid = ({ datas, loading, className, onRowClick }: DataGridProps) => {
   return (
     <div className="data-grid">
-      <table>
+      <table className={className}>
         <thead>
           <tr>
             <th>Name</th>
-            <th>Job title</th>
+            <th>Job Title</th>
           </tr>
         </thead>
         {loading ? (

@@ -1,7 +1,7 @@
 import "./Footer.css";
 
 const Footer = ({}) => {
-  return <div className="footer">This is footer</div>;
+  return <div className="footer">Copyright @ abhilash</div>;
 };
 
 export default Footer;

@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = ({}) => {
   return (
     <div className="header">
-      <Title text="Seeqe" level={1} color="white" />
+      <Title text="Seeqe Employee List" level={1} color="white" />
     </div>
   );
 };
