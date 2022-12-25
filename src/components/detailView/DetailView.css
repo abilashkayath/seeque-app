@@ -1,0 +1,47 @@
+.detail-content {
+  border-bottom: 1px solid #eee;
+}
+
+.detail-content-row {
+  display: flex;
+}
+
+.detail-content-item-label {
+  flex: 1;
+}
+
+.detail-content-item-value {
+  flex: 3;
+}
+
+.detail-content-skills {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.detail-list {
+  max-height: 400px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: auto;
+  caption-side: top;
+  empty-cells: hide;
+  table-layout: auto;
+}
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,8 @@
+.page-container {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.page{
+    position: relative;
+}

@@ -1,0 +1,25 @@
+.table-container {
+    overflow-x: auto;
+  }
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: auto;
+    caption-side: top;
+    empty-cells: hide;
+    table-layout: auto;
+  }
+  th,
+  td {
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .data-grid-nodata{
+    width: 100%;
+    text-align: center;
+  }

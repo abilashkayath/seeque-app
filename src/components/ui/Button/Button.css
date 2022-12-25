@@ -1,0 +1,27 @@
+.button {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid transparent;
+}
+
+.button.primary {
+  color: #fff;
+  background-color: #1677ff;
+}
+
+.button.primary:hover {
+  background-color: #5495f0;
+}
+
+.button.link {
+  color: rgb(39, 38, 38);
+  background-color: #e4e8ee;
+}
+
+.button.link:hover {
+  color: #1677ff;
+  border-color: #1677ff;
+}

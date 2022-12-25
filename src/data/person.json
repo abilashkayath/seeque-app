@@ -1,0 +1,273 @@
+{
+  "persons": [
+    {
+      "id": 0,
+      "personName": "Emily Kim",
+      "location": "Berlin, Germany",
+      "jobTitle": "Sales Representative",
+      "jobDescription": "Sells products or services to customers, typically by making phone calls or visiting potential clients in person.",
+      "specialities": ["Sales"]
+    },
+    {
+      "id": 1,
+      "personName": "Michael Rodriguez",
+      "location": "Berlin, Germany",
+      "jobTitle": "Writer",
+      "jobDescription": "Creates written content, such as articles, books, or scripts, for publication or production.",
+      "specialities": ["Writing"]
+    },
+    {
+      "id": 2,
+      "personName": "Jessica Patel",
+      "location": "Berlin, Germany",
+      "jobTitle": "Consultant",
+      "jobDescription": "Advises companies on how to improve their business operations and increase efficiency.",
+      "specialities": [
+        "Business Operations",
+        "Engineering",
+        "Sales",
+        "Management",
+        "Sales"
+      ]
+    },
+    {
+      "id": 3,
+      "personName": "David Lee",
+      "location": "Seattle, USA",
+      "jobTitle": "Software Engineer",
+      "jobDescription": "Designs, develops, and maintains software systems using programming languages and software development frameworks.",
+      "specialities": ["Engineering", "Sales"]
+    },
+    {
+      "id": 4,
+      "personName": "Sarah Williams",
+      "location": "New Delhi, India",
+      "jobTitle": "Software Engineer",
+      "jobDescription": "Designs, develops, and maintains software systems using programming languages and software development frameworks.",
+      "specialities": ["Engineering", "Sales"]
+    },
+    {
+      "id": 5,
+      "personName": "James Chen",
+      "location": "New Delhi, India",
+      "jobTitle": "Marketing Manager",
+      "jobDescription": "Responsible for developing and implementing marketing strategies to promote a company's products or services.",
+      "specialities": ["Management"]
+    },
+    {
+      "id": 6,
+      "personName": "Christopher Gonzales",
+      "location": "Seattle, USA",
+      "jobTitle": "Consultant",
+      "jobDescription": "Advises companies on how to improve their business operations and increase efficiency.",
+      "specialities": [
+        "Business Operations",
+        "Engineering",
+        "Sales",
+        "Management"
+      ]
+    },
+    {
+      "id": 7,
+      "personName": "Melissa Kim",
+      "location": "Seattle, USA",
+      "jobTitle": "Data Scientist",
+      "jobDescription": "Analyzes and interprets complex data using statistical and computational techniques to extract insights and inform business decisions.",
+      "specialities": ["Engineering"]
+    },
+    {
+      "id": 8,
+      "personName": "John Smith",
+      "location": "Berlin, Germany",
+      "jobTitle": "Software Engineer",
+      "jobDescription": "Designs, develops, and maintains software systems using programming languages and software development frameworks.",
+      "specialities": ["Engineering"]
+    },
+    {
+      "id": 9,
+      "personName": "Rachel Lee",
+      "location": "Nairobi, Kenya",
+      "jobTitle": "Marketing Manager",
+      "jobDescription": "Responsible for developing and implementing marketing strategies to promote a company's products or services.",
+      "specialities": ["Management", "Public Relations"]
+    },
+    {
+      "id": 10,
+      "personName": "Matthew Nguyen",
+      "location": "Berlin, Germany",
+      "jobTitle": "Project Manager",
+      "jobDescription": "Plans, coordinates, and oversees the completion of projects within a company, ensuring that they are completed on time and within budget.",
+      "specialities": ["Management", "Engineering"]
+    },
+    {
+      "id": 11,
+      "personName": "Rebecca Kim",
+      "location": "Seattle, USA",
+      "jobTitle": "Writer",
+      "jobDescription": "Creates written content, such as articles, books, or scripts, for publication or production.",
+      "specialities": ["Writing", "Public Relations"]
+    },
+    {
+      "id": 12,
+      "personName": "William Johnson",
+      "location": "Nairobi, Kenya",
+      "jobTitle": "Human Resources Manager",
+      "jobDescription": "Oversees the recruitment, training, and management of a company's employees, as well as handling employee relations and benefits.",
+      "specialities": ["Management", "Business Operations"]
+    },
+    {
+      "id": 13,
+      "personName": "Lauren Patel",
+      "location": "Berlin, Germany",
+      "jobTitle": "Writer",
+      "jobDescription": "Creates written content, such as articles, books, or scripts, for publication or production.",
+      "specialities": ["Writing", "Public Relations"]
+    },
+    {
+      "id": 14,
+      "personName": "Robert Lee",
+      "location": "Berlin, Germany",
+      "jobTitle": "Consultant",
+      "jobDescription": "Advises companies on how to improve their business operations and increase efficiency.",
+      "specialities": [
+        "Business Operations",
+        "Engineering",
+        "Sales",
+        "Management",
+        "Engineering",
+        "Sales"
+      ]
+    },
+    {
+      "id": 15,
+      "personName": "Jennifer Williams",
+      "location": "Nairobi, Kenya",
+      "jobTitle": "Human Resources Manager",
+      "jobDescription": "Oversees the recruitment, training, and management of a company's employees, as well as handling employee relations and benefits.",
+      "specialities": ["Management", "Business Operations"]
+    },
+    {
+      "id": 16,
+      "personName": "Joseph Kim",
+      "location": "Seattle, USA",
+      "jobTitle": "Human Resources Manager",
+      "jobDescription": "Oversees the recruitment, training, and management of a company's employees, as well as handling employee relations and benefits.",
+      "specialities": ["Management", "Business Operations"]
+    },
+    {
+      "id": 17,
+      "personName": "Megan Rodriguez",
+      "location": "Seattle, USA",
+      "jobTitle": "Human Resources Manager",
+      "jobDescription": "Oversees the recruitment, training, and management of a company's employees, as well as handling employee relations and benefits.",
+      "specialities": ["Management", "Business Operations"]
+    },
+    {
+      "id": 18,
+      "personName": "Daniel Chen",
+      "location": "New Delhi, India",
+      "jobTitle": "Writer",
+      "jobDescription": "Creates written content, such as articles, books, or scripts, for publication or production.",
+      "specialities": ["Writing"]
+    },
+    {
+      "id": 19,
+      "personName": "Nicole Gonzales",
+      "location": "Nairobi, Kenya",
+      "jobTitle": "Data Scientist",
+      "jobDescription": "Analyzes and interprets complex data using statistical and computational techniques to extract insights and inform business decisions.",
+      "specialities": ["Engineering"]
+    },
+    {
+      "id": 20,
+      "personName": "Kevin Smith",
+      "location": "Nairobi, Kenya",
+      "jobTitle": "Consultant",
+      "jobDescription": "Advises companies on how to improve their business operations and increase efficiency.",
+      "specialities": [
+        "Business Operations",
+        "Engineering",
+        "Sales",
+        "Engineering",
+        "Sales"
+      ]
+    },
+    {
+      "id": 21,
+      "personName": "Amanda Nguyen",
+      "location": "Berlin, Germany",
+      "jobTitle": "Marketing Manager",
+      "jobDescription": "Responsible for developing and implementing marketing strategies to promote a company's products or services.",
+      "specialities": ["Management", "Public Relations"]
+    },
+    {
+      "id": 22,
+      "personName": "Richard Kim",
+      "location": "Nairobi, Kenya",
+      "jobTitle": "Marketing Manager",
+      "jobDescription": "Responsible for developing and implementing marketing strategies to promote a company's products or services.",
+      "specialities": ["Management"]
+    },
+    {
+      "id": 23,
+      "personName": "Elizabeth Patel",
+      "location": "Seattle, USA",
+      "jobTitle": "Consultant",
+      "jobDescription": "Advises companies on how to improve their business operations and increase efficiency.",
+      "specialities": [
+        "Business Operations",
+        "Engineering",
+        "Sales",
+        "Engineering"
+      ]
+    },
+    {
+      "id": 24,
+      "personName": "Jonathan Williams",
+      "location": "Berlin, Germany",
+      "jobTitle": "Project Manager",
+      "jobDescription": "Plans, coordinates, and oversees the completion of projects within a company, ensuring that they are completed on time and within budget.",
+      "specialities": ["Management", "Business Operations"]
+    },
+    {
+      "id": 25,
+      "personName": "Kelly Lee",
+      "location": "Berlin, Germany",
+      "jobTitle": "Writer",
+      "jobDescription": "Creates written content, such as articles, books, or scripts, for publication or production.",
+      "specialities": ["Writing", "Engineering"]
+    },
+    {
+      "id": 26,
+      "personName": "Christopher Nguyen",
+      "location": "Seattle, USA",
+      "jobTitle": "Software Engineer",
+      "jobDescription": "Designs, develops, and maintains software systems using programming languages and software development frameworks.",
+      "specialities": ["Engineering"]
+    },
+    {
+      "id": 27,
+      "personName": "Stephanie Gonzales",
+      "location": "Berlin, Germany",
+      "jobTitle": "Sales Representative",
+      "jobDescription": "Sells products or services to customers, typically by making phone calls or visiting potential clients in person.",
+      "specialities": ["Sales"]
+    },
+    {
+      "id": 28,
+      "personName": "Thomas Kim",
+      "location": "New Delhi, India",
+      "jobTitle": "Sales Representative",
+      "jobDescription": "Sells products or services to customers, typically by making phone calls or visiting potential clients in person.",
+      "specialities": ["Sales"]
+    },
+    {
+      "id": 29,
+      "personName": "Andrea Patel",
+      "location": "Seattle, USA",
+      "jobTitle": "Writer",
+      "jobDescription": "Creates written content, such as articles, books, or scripts, for publication or production.",
+      "specialities": ["Writing"]
+    }
+  ]
+}
