@@ -13,7 +13,7 @@ Install seeque-app with npm
 
  npm install 
  
- npm run
+ npm run start
 ```
     
 ## Build Project
