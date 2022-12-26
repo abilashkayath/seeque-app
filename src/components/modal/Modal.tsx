@@ -1,3 +1,4 @@
+import ReactDOM from "react-dom";
 import Button from "../ui/Button/Button";
 import { Title } from "../ui/Typography/Typography";
 import "./Modal.css";
@@ -5,9 +6,9 @@ import "./Modal.css";
 export type ModalProps = {
   show: boolean;
   title: string;
-  children: any;
-  onClose: any;
-  onBack: any;
+  children: React.ReactNode;
+  onClose: () => void;
+  onBack: () => void;
   showBackBtn: boolean;
 };
 
@@ -19,7 +20,7 @@ const Modal = ({
   onClose,
   onBack,
 }: ModalProps) => {
-  return (
+  return ReactDOM.createPortal(
     <div className={`modal ${show ? "show" : ""}`} onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
@@ -46,7 +47,8 @@ const Modal = ({
           <Button onClick={onClose}>Close</Button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };
 

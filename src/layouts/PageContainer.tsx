@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import "./PageContainer.css";
 
 export type PageContainerProps = {
-  children: any;
+  children:  React.ReactNode;
 };
 
 const PageContainer = ({ children }: PageContainerProps) => {

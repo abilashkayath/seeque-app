@@ -11,7 +11,7 @@
   flex: 1;
   flex-direction: row;
   justify-content: space-between;
-  display: flex ;
+  display: flex;
   padding-right: 10px;
 }
 
@@ -31,24 +31,4 @@
   overflow: hidden;
   overflow-y: auto;
   padding: 20px;
-}
-
-.table-container {
-  overflow-x: auto;
-}
-table {
-  width: 70%;
-  border-collapse: collapse;
-  margin: auto;
-  caption-side: top;
-  empty-cells: hide;
-  table-layout: auto;
-}
-th,
-td {
-  padding: 15px;
-  text-align: left;
-}
-tr:nth-child(even) {
-  background-color: #f2f2f2;
 }

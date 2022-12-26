@@ -1,10 +1,12 @@
+import isEmpty from "lodash/isEmpty";
 import Loader from "../ui/Loader/Loader";
-import _ from "lodash";
+import { PersonProps } from "../detailView/DetailView";
+
 import "./DataGrid.css";
 
 export type DataGridProps = {
-  datas: any;
-  onRowClick: any;
+  datas: PersonProps[];
+  onRowClick: (data: PersonProps) => void;
   loading: boolean;
   className?: string;
 };
@@ -21,13 +23,13 @@ const DataGrid = ({ datas, loading, className, onRowClick }: DataGridProps) => {
         </thead>
         {loading ? (
           <Loader />
-        ) : _.isEmpty(datas) ? (
+        ) : isEmpty(datas) ? (
           <div className="data-grid-nodata">
             <h5>No data present</h5>
           </div>
         ) : (
           <tbody>
-            {datas.map((data: any) => (
+            {datas.map((data: PersonProps) => (
               <tr key={data.id} onClick={() => onRowClick(data)}>
                 <td>{data.personName}</td>
                 <td>{data.jobTitle}</td>

@@ -3,10 +3,19 @@ import DataGrid from "../dataGrid/DataGrid";
 import { Text, Title } from "../ui/Typography/Typography";
 import "./DetailView.css";
 
+export type PersonProps = {
+  id: number;
+  personName: string;
+  location: string;
+  jobTitle: string;
+  jobDescription: string;
+  specialities: string[];
+};
+
 export type DetailViewProps = {
-  details: any;
-  recommendedList: any;
-  onListClick: any;
+  details: PersonProps;
+  recommendedList: PersonProps[];
+  onListClick: (data: PersonProps) => void;
 };
 export type DetailRowProps = {
   name: string;
@@ -46,7 +55,7 @@ const DetailView = ({
           </div>
           <div className="detail-content-item-value detail-content-skills">
             {specialities &&
-              specialities.map((item: any) => <Badge text={item} key={item} />)}
+              specialities.map((item: string) => <Badge text={item} key={item} />)}
           </div>
         </div>
       </div>
@@ -55,7 +64,7 @@ const DetailView = ({
         <Title text="Persons with same skill set" />
         <DataGrid
           datas={recommendedList}
-          onRowClick={(data: any) => {
+          onRowClick={(data: PersonProps) => {
             onListClick(data);
           }}
           loading={false}

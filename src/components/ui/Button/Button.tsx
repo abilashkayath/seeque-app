@@ -1,7 +1,7 @@
 import "./Button.css";
 
 export type ButtonProps = {
-  children?: any;
+  children?: React.ReactNode;
   onClick: () => void;
   type?: string;
 };
