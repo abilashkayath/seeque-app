@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-const Footer = ({}) => {
+const Footer = () => {
   return <div className="footer">Copyright @ abhilash</div>;
 };
 
