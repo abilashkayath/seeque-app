@@ -21,4 +21,6 @@ Install seeque-app with npm
 ```bash
  npm run build
 ```
-  
+## Learn more
+
+- Using 'axios-mock-adapter' for managing mock apis
